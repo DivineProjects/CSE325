@@ -51,8 +51,40 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Inception",
+                    ReleaseDate = DateTime.Parse("2010-7-16"),
+                    Genre = "Science Fiction",
+                    Rating = "PG-13",
+                    Price = 12.99M
+                },
+                new Movie
+                {
+                    Title = "The Godfather",
+                    ReleaseDate = DateTime.Parse("1972-3-24"),
+                    Genre = "Crime",
+                    Rating = "R",
+                    Price = 10.99M
+                },
+                new Movie
+                {
+                    Title = "The Dark Knight",
+                    ReleaseDate = DateTime.Parse("2008-7-18"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 11.99M
+                },
+                new Movie
+                {
+                    Title = "Forrest Gump",
+                    ReleaseDate = DateTime.Parse("1994-7-6"),
+                    Genre = "Drama",
+                    Rating = "PG-13",
+                    Price = 9.49M
                 }
-    
+
             );
             context.SaveChanges();
         }
